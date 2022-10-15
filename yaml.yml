@@ -2,5 +2,8 @@
 - name: update system
   hosts: all
   become: true
-  apt:
-    update_cache: yes
+  
+  tasks:
+  - name: update
+    apt:
+      update_cache: yes
