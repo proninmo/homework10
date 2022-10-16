@@ -1,0 +1,7 @@
+nexus:
+  image: sonatype/nexus3:3.36.0
+  ports:
+    - "8081:8081"
+    - "8123:8123"
+  volumes:
+    - /tmp/data:/nexus-data
