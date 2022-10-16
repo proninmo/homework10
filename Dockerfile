@@ -1,2 +1,2 @@
 FROM nginx:latest
-ADD index.html /var/www/html
+ADD index.html /usr/share/nginx/html/
